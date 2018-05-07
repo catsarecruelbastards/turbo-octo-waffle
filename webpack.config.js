@@ -9,5 +9,10 @@ module.exports = {
         }
       }
     ]
+  },
+  devServer: {
+    contentBase: 'dist',
+    compress: true,
+    port: 3000
   }
 };
