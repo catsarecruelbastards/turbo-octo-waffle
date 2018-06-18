@@ -31,6 +31,6 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
-    "dev:serve": "webpack-dev-server --mode development --hot --hot-only"
+    "start": "webpack-dev-server --mode development --hot --hot-only"
   }
 }
